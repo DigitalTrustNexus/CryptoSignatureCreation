@@ -1,0 +1,47 @@
+Explaination of opReturnValue: https://bitcoin.stackexchange.com/questions/29554/explanation-of-what-an-op-return-transaction-looks-like
+The transaction informationa: https://live.blockcypher.com/btc/tx/720d94c32eaa52384654ca312ddac7150616494c5615a8cd9d7a817b79103d1c/. Note that the opReturnValue is iembeded in the transaction.
+Block informatoin: https://live.blockcypher.com/btc/block/00000000000000000002cc5f03e9ea3268fa187029dbe8a8105f6d9c1bc3c466/ -- you can see expected value is the merkel root of the block 
+
+Entering...
+Parse proof...
+Print proof...
+Result: {
+  "hash": "1d2a9e92b561440e8d27a21eed114f7018105db00262af7d7087f7dea9986b0a",
+  "hash_id_node": "adfb95d0-816f-11e9-aa1d-0166e8aa3328",
+  "hash_submitted_node_at": "2019-05-28T17:40:27Z",
+  "hash_id_core": "af80d640-816f-11e9-b372-01f98a1b72cd",
+  "hash_submitted_core_at": "2019-05-28T17:40:29Z",
+  "branches": [
+    {
+      "label": "cal_anchor_branch",
+      "anchors": [
+        {
+          "type": "cal",
+          "anchor_id": "3279447",
+          "uris": [
+            "https://b.chainpoint.org/calendar/3279447/hash"
+          ],
+          "expected_value": "591543c0c38e9d4a93152215b2a3ef79e217610ced125caacc8f7e274e7c6017"
+        }
+      ],
+      "branches": [
+        {
+          "label": "btc_anchor_branch",
+          "anchors": [
+            {
+              "type": "btc",
+              "anchor_id": "578220",
+              "uris": [
+                "https://b.chainpoint.org/calendar/3279774/data"
+              ],
+              "expected_value": "5251f810e56eb2600b7ee6d5e9e7d67d3c42a37f5b761548d864b97bfd65805e"
+            }
+          ],
+          "opReturnValue": "208b88e4dad2876c31f7454da0032f74c822dd9efcea9277dd4696001167d9bd",
+          "btcTxId": "720d94c32eaa52384654ca312ddac7150616494c5615a8cd9d7a817b79103d1c",
+          "rawTx": "01000000012254c6ba52d13e0638e49c472a9c0f0167f556a1463ff3a3a2e06273b97ca327010000006b483045022100ad8de666cc5ca80403efc59bef3f5228db6ce4ae9ced059e9625049d545a4da402207e217dd12f3fe247d8f38f6d3be27c00b32b0b60eca1482c37db70acfdc548dc0121023f64280243b139aecdcd947b732f2cbcb49e6c78550929a5f8f3679837b8ebf7ffffffff020000000000000000226a20208b88e4dad2876c31f7454da0032f74c822dd9efcea9277dd4696001167d9bd693fd400000000001976a91488cc4cc4b7c2b04a33d8f1cabe5610bd435645b788ac00000000"
+        }
+      ]
+    }
+  ]
+}

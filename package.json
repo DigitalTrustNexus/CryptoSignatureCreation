@@ -1,0 +1,15 @@
+{
+  "name": "chainpointclienttest",
+  "version": "1.0.0",
+  "description": "Test chainpoint client",
+  "main": "index.js",
+  "dependencies": {
+    "chainpoint-client": "^0.3.0",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Yang",
+  "license": "ISC"
+}

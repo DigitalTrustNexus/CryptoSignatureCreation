@@ -1,0 +1,44 @@
+[
+  {
+    "hash": "c4078590d5e388cb143e12e69a18cdb7111605b69ed6ade88edbf9cb8aadb0b9",
+    "hashIdNode": "ade38f60-8eb4-11e9-b649-01685e2e31f8",
+    "hashIdCore": "af94c1d0-8eb4-11e9-ad22-01c72b1db759",
+    "hashSubmittedNodeAt": "2019-06-14T14:57:07Z",
+    "hashSubmittedCoreAt": "2019-06-14T14:57:10Z",
+    "branch": "cal_anchor_branch",
+    "uri": "http://68.183.54.211/calendar/3377694/hash",
+    "type": "cal",
+    "anchorId": "3377694",
+    "expectedValue": "c8cea0a9503aa602c23e69601a6ef5f77d020b346df5cda668b711e946381b28",
+    "verified": true,
+    "verifiedAt": "2019-06-14T14:57:20Z"
+  },
+  {
+    "hash": "c4078590d5e388cb143e12e69a18cdb7111605b69ed6ade88edbf9cb8aadb0b9",
+    "hashIdNode": "ade4eef0-8eb4-11e9-ac50-018e2a360540",
+    "hashIdCore": "aed876b0-8eb4-11e9-a505-0174ebb9e742",
+    "hashSubmittedNodeAt": "2019-06-14T14:57:07Z",
+    "hashSubmittedCoreAt": "2019-06-14T14:57:09Z",
+    "branch": "cal_anchor_branch",
+    "uri": "http://68.183.54.211/calendar/3377694/hash",
+    "type": "cal",
+    "anchorId": "3377694",
+    "expectedValue": "c8cea0a9503aa602c23e69601a6ef5f77d020b346df5cda668b711e946381b28",
+    "verified": true,
+    "verifiedAt": "2019-06-14T14:57:20Z"
+  },
+  {
+    "hash": "c4078590d5e388cb143e12e69a18cdb7111605b69ed6ade88edbf9cb8aadb0b9",
+    "hashIdNode": "adce80c0-8eb4-11e9-a473-01bb4693b946",
+    "hashIdCore": "af0c57f0-8eb4-11e9-ab60-014ddfe76ac6",
+    "hashSubmittedNodeAt": "2019-06-14T14:57:07Z",
+    "hashSubmittedCoreAt": "2019-06-14T14:57:09Z",
+    "branch": "cal_anchor_branch",
+    "uri": "http://68.183.54.211/calendar/3377694/hash",
+    "type": "cal",
+    "anchorId": "3377694",
+    "expectedValue": "c8cea0a9503aa602c23e69601a6ef5f77d020b346df5cda668b711e946381b28",
+    "verified": true,
+    "verifiedAt": "2019-06-14T14:57:20Z"
+  }
+]

@@ -1,0 +1,24 @@
+Submitted Proof Objects: Expand objects below to inspect.
+[ { uri: 'http://207.148.11.173',
+    hash: '1d2a9e92b561440e8d27a21eed114f7018105db00262af7d7087f7dea9986b0a',
+    hashIdNode: '33cbe9c0-8171-11e9-b1bb-019b7080769b',
+    groupId: '31f8b060-8171-11e9-a615-2f4d3cf74df7' },
+  { uri: 'http://45.77.110.209',
+    hash: '1d2a9e92b561440e8d27a21eed114f7018105db00262af7d7087f7dea9986b0a',
+    hashIdNode: '33cfe160-8171-11e9-a921-01b62d6c0155',
+    groupId: '31f8b060-8171-11e9-a615-2f4d3cf74df7' },
+  { uri: 'http://80.211.234.202',
+    hash: '1d2a9e92b561440e8d27a21eed114f7018105db00262af7d7087f7dea9986b0a',
+    hashIdNode: '33e84b60-8171-11e9-8490-0117b8ad2d7a',
+    groupId: '31f8b060-8171-11e9-a615-2f4d3cf74df7' } ]
+Sleeping 12 seconds to wait for proofs to generate...
+Proof Objects: Expand objects below to inspect.
+[ { hashIdNode: '33cbe9c0-8171-11e9-b1bb-019b7080769b',
+    proof: 'eJyNk79uE0EQxl+GEsc7s/9mr7LEK1ClsWZ2Z/FJwbZ8lwBloKFNQYsECUpANEiIkvfw27B2QiABJK5ZafZ+334z+ub11SyvlqM+H78vxnE9dNPpM9uXg9XmyTQvuF+uV/1ynJ7Yi/HFWj89ui1dLHhYbGdQkJMmFB/AOaNUMDKCagFwNRogML6IMRiQayzRUGyHckoUxPDnncy8L/Plquj2gbVZNGUzIYgwAdA0ERCZGEjSUBNDkm97ZDiWp/046jU55/Ertp8mxk+QHkPsPHQIh7fyebXZybsinOF3eXZVm7wjtdFp8XRffkf+XR4Pr2TDy7zQ4ezlhyMWPfqS+Wi+K6028+u789V6eHv67mj7cO+zL93/9Hj6frW+HBY8QR/28N7FDv6PDu7Db5b9MJ5gB94nEzwF077WARjyObWqLwiUfajkKEcP3goDE9tsiDIKcSZATT5aREdWclAurlKoVcQGR4mrYctqMTsygRkEmtMauSAa5ys7Q9abYKV4L8bnP1zOIHnjMkgqjKSpBrSKGkkskpOowuhFrWNwmqGdnDGElNkU30KX7wputrOiKZKrkms1oCwh1egpJSSszYaKQ2NaAVxoAwBuk2hy4lUDQI7xvsNkMSaX4u0gKXTQ/VwbOfi1L7v16VoUuhtib4djm0hIzgF7aC055yVGn6wjab3m6BwWLLkWJo+uhGgqFg3Gak6puDt2Lq9DNpy92i/meXvs403u+nJ58+zF8aYfzrYH/7I4bZQuC2+mN8B0l/0fmoVRqg==',
+    anchorsComplete: [ 'cal' ] },
+  { hashIdNode: '33cfe160-8171-11e9-a921-01b62d6c0155',
+    proof: null,
+    anchorsComplete: [] },
+  { hashIdNode: '33e84b60-8171-11e9-8490-0117b8ad2d7a',
+    proof: 'eJyNk71u1FAQhV+Gko1n5v6Oq5V4Bao0q7k/Zi0t9sp2ApSBhjYFHU1IUAKiQUKUvMe+DdebJUAACTe2rvWdOcdz/PpmGftuys+nb+tp2o51VT1TbTrqhydVXEvbbfu2m6pTdTW92OaPj+6OrtYyrndLTCScmYKxqDVkn8gJYc4JUTcO0COYFADIkjQuOfCu3LIwextAPs0yqzatuj7l3QOlstfBwsKjwwVi5oXXDAtAdMFLouTk6x4ZT8LTdpryLbmS6QsB8gLMgvxjdLXBmvD4Tj72wyxvcrKifpVnQl/kOUZ0GiW5+/Iz+Xd5fXwTBuniOo/nL99vJOTN5yib1XzUD6vbd5f9dnx7drHZPdz7bFP9PxnP3vXb63EtCzJ2D+9dzPB/JLgPv+nacTqlGo1hsMbDfNVNzhAy6+CQtGKBhEw2aFeeyLIVoylydhYjpLLHZDiXJTOUJWPGQCVHDh5YVIjFgjhPrrGlBE0CW0xFKAxK40MxHUQ860xNkfdGS1D3XS5BaVRKeQfcCAdQHhutQ+MFmCGoJrlGAJSRnKKNSKi8TwDaOCoD/ojNihxrdne5va2x/tHycPSz3nPb67K5+kCcXQy7pTidgmVdPqlB8lprE5wzrLQPllR0WlPZVWySeEM6WQcNpWxB5cic9G92rm87MZ6/2v9Hl2XYh0NN2nR9GHt1MrTj+e7oXxarQuUuyVAdgGqu6nf+8jXz',
+    anchorsComplete: [ 'cal' ] } ]

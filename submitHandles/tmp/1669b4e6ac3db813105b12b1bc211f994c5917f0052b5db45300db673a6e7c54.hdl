@@ -1,0 +1,20 @@
+[
+  {
+    "uri": "http://94.177.232.168",
+    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
+    "hashIdNode": "9a603e30-8bde-11e9-9280-01627dfb3228",
+    "groupId": "9a56ef60-8bde-11e9-9bd5-358cb13b3b7d"
+  },
+  {
+    "uri": "http://159.65.72.32",
+    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
+    "hashIdNode": "9a411d70-8bde-11e9-9fce-01bee3ce1f0c",
+    "groupId": "9a56ef60-8bde-11e9-9bd5-358cb13b3b7d"
+  },
+  {
+    "uri": "http://35.204.201.218",
+    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
+    "hashIdNode": "9a5e1b50-8bde-11e9-a4c4-015a6e0ec4ee",
+    "groupId": "9a56ef60-8bde-11e9-9bd5-358cb13b3b7d"
+  }
+]

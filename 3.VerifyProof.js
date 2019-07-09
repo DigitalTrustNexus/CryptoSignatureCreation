@@ -1,0 +1,59 @@
+const chp = require('chainpoint-client')
+
+async function runIt () {
+  proofs1 = 
+[
+"eJyNU0uOHEUQ5QgcgqV7OiL/WauRuAIrb1rxS7qkobvVVTawNGzYzoIDgAeNQWyQEEvu0ZIP4+yaYWyPjSCXmflevBfx4odXl7LfzfbN/Pd2ng/TsF5/7Ue92B+/XMuWxt1hP+7m9XN/M397sN8+f7i62dK0PV1iSpWDJRKvXNAjREbHyOIQW61BYsXcAKLjqByiB1BO2VOyLDH8fqbZjLrZ7dVOn1UKiJphVVhthWh1VZvYCpDNvBg2kL8WyPSMvxrn2e6QG5r/dIB1BamjvgAYsA6+Pn2gl/1xoa85k75LT0jS6Z0lSzmEXB/Tn5EfpQ/w9BUfaSdbm66/++WK2K7+ELranK/2x83d28v9YXr9yacvfro6PVmUjjr8H5cvft4fbqctrVxMC3jRsYD/28Nj8I+7cZqfuwFjAofOB+hnyCGZFG8paYWgTWoOCD5SqyaYqmYUBCN1CMVDpBwjMnCJJWFICFhasSKWnBeS5lqK5BNkRzX51lTMNWFvhYtGS1VKk6Y1clAfIz1WedlTwSxKrjFG7rFCJjK1VEqKaq5ISyWTeSJgcKqOBcRnFaGGXt8nPJ4uY5WcGriiAYQpVuLmM/YGSndVrTtQbATSehsjWudwLkTJTCbV2wcKK4iECp48Sxep/SdAQ0rRCRXqfayUSmD2tfRK4nx/rc56p4BD+cBy9b6PJIaHyZQ+pOGfTZSLtyt43sihp2u4Ryz+emNjLT50OdH7zi+9VAJwLvcMkStFHYTahTrHy8waU41Ofcna9/E9Obd3uZ2uv192/WUv9ut9lEe9vS978+w4Tteni3+TuO4o2ykd1/eA9Xmd3gBZHXCf"
+]
+
+  proofs2 =
+[
+  {
+    "hashIdNode": "9a603e30-8bde-11e9-9280-01627dfb3228",
+    "proof": null,
+    "anchorsComplete": []
+  },
+  {
+    "hashIdNode": "9a411d70-8bde-11e9-9fce-01bee3ce1f0c",
+    "proof": "eJyNU0uOHEUQ5QgcgqV7OiL/WauRuAIrb1rxS7qkobvVVTawNGzYzoIDgAeNQWyQEEvu0ZIP4+yaYWyPjSCXmflevBfx4odXl7LfzfbN/Pd2ng/TsF5/7Ue92B+/XMuWxt1hP+7m9XN/M397sN8+f7i62dK0PV1iSpWDJRKvXNAjREbHyOIQW61BYsXcAKLjqByiB1BO2VOyLDH8fqbZjLrZ7dVOn1UKiJphVVhthWh1VZvYCpDNvBg2kL8WyPSMvxrn2e6QG5r/dIB1BamjvgAYsA6+Pn2gl/1xoa85k75LT0jS6Z0lSzmEXB/Tn5EfpQ/w9BUfaSdbm66/++WK2K7+ELranK/2x83d28v9YXr9yacvfro6PVmUjjr8H5cvft4fbqctrVxMC3jRsYD/28Nj8I+7cZqfuwFjAofOB+hnyCGZFG8paYWgTWoOCD5SqyaYqmYUBCN1CMVDpBwjMnCJJWFICFhasSKWnBeS5lqK5BNkRzX51lTMNWFvhYtGS1VKk6Y1clAfIz1WedlTwSxKrjFG7rFCJjK1VEqKaq5ISyWTeSJgcKqOBcRnFaGGXt8nPJ4uY5WcGriiAYQpVuLmM/YGSndVrTtQbATSehsjWudwLkTJTCbV2wcKK4iECp48Sxep/SdAQ0rRCRXqfayUSmD2tfRK4nx/rc56p4BD+cBy9b6PJIaHyZQ+pOGfTZSLtyt43sihp2u4Ryz+emNjLT50OdH7zi+9VAJwLvcMkStFHYTahTrHy8waU41Ofcna9/E9Obd3uZ2uv192/WUv9ut9lEe9vS978+w4Tteni3+TuO4o2ykd1/eA9Xmd3gBZHXCf",
+    "anchorsComplete": [
+      "cal"
+    ]
+  },
+  {
+    "hashIdNode": "9a5e1b50-8bde-11e9-a4c4-015a6e0ec4ee",
+    "proof": null,
+    "anchorsComplete": []
+  }
+]
+
+  proofs3 =
+[
+  {
+    "hashIdNode": "9a411d70-8bde-11e9-9fce-01bee3ce1f0c",
+    "proof": "eJyNU0uOHEUQ5QgcgqV7OiL/WauRuAIrb1rxS7qkobvVVTawNGzYzoIDgAeNQWyQEEvu0ZIP4+yaYWyPjSCXmflevBfx4odXl7LfzfbN/Pd2ng/TsF5/7Ue92B+/XMuWxt1hP+7m9XN/M397sN8+f7i62dK0PV1iSpWDJRKvXNAjREbHyOIQW61BYsXcAKLjqByiB1BO2VOyLDH8fqbZjLrZ7dVOn1UKiJphVVhthWh1VZvYCpDNvBg2kL8WyPSMvxrn2e6QG5r/dIB1BamjvgAYsA6+Pn2gl/1xoa85k75LT0jS6Z0lSzmEXB/Tn5EfpQ/w9BUfaSdbm66/++WK2K7+ELranK/2x83d28v9YXr9yacvfro6PVmUjjr8H5cvft4fbqctrVxMC3jRsYD/28Nj8I+7cZqfuwFjAofOB+hnyCGZFG8paYWgTWoOCD5SqyaYqmYUBCN1CMVDpBwjMnCJJWFICFhasSKWnBeS5lqK5BNkRzX51lTMNWFvhYtGS1VKk6Y1clAfIz1WedlTwSxKrjFG7rFCJjK1VEqKaq5ISyWTeSJgcKqOBcRnFaGGXt8nPJ4uY5WcGriiAYQpVuLmM/YGSndVrTtQbATSehsjWudwLkTJTCbV2wcKK4iECp48Sxep/SdAQ0rRCRXqfayUSmD2tfRK4nx/rc56p4BD+cBy9b6PJIaHyZQ+pOGfTZSLtyt43sihp2u4Ryz+emNjLT50OdH7zi+9VAJwLvcMkStFHYTahTrHy8waU41Ofcna9/E9Obd3uZ2uv192/WUv9ut9lEe9vS978+w4Tteni3+TuO4o2ykd1/eA9Xmd3gBZHXCf",
+    "anchorsComplete": [
+      "cal"
+    ]
+  }
+]
+
+
+  data = proofs2;
+  proof4 = [];
+  for(var i = 0; i < data.length; i++) {
+
+    p.hashIdNode = data[i].hashIdNode;
+    p.proof = data[i].proof;
+    p.anchorsComplete = data[i].anchorsComplete;
+    console.log("proof:" + proof.proof);
+
+  }
+
+  // Verify every anchor in every Calendar proof
+//  let proofVerifies = await chp.verifyProofs(proofs3)
+  console.log("Verified Proof Objects: Expand objects below to inspect.")
+  console.log(proofVerifies)
+}
+
+runIt()
