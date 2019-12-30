@@ -1,15 +1,23 @@
 {
-  "name": "chainpointclienttest",
+  "name": "cryptosignaturecreation",
   "version": "1.0.0",
-  "description": "Test chainpoint client",
-  "main": "index.js",
-  "dependencies": {
-    "chainpoint-client": "^0.3.0",
-  },
-  "devDependencies": {},
+  "description": "## Overview This repository contains code to hash a document, generate a proof through chainpoint to bitcoin blockchian.  The proof will be used as a verification in the printer controller to verify the design.",
+  "main": "0.MiniHashFile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Yang",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalTrustNexus/CryptoSignatureCreation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigitalTrustNexus/CryptoSignatureCreation/issues"
+  },
+  "homepage": "https://github.com/DigitalTrustNexus/CryptoSignatureCreation#readme",
+  "dependencies": {
+    "chainpoint-client": "^0.4.1",
+    "deasync": "^0.1.15"
+  }
 }

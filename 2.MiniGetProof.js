@@ -2,26 +2,22 @@ const chp = require('chainpoint-client')
 
 async function runIt () {
   proofHandles = 
-[
-  {
-    "uri": "http://217.61.124.63",
-    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
-    "hashIdNode": "7b371260-8be1-11e9-9194-01f3c673b975",
-    "groupId": "7b2e11b0-8be1-11e9-a0c5-67978c0077ae"
-  },
-  {
-    "uri": "http://159.69.112.70",
-    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
-    "hashIdNode": "7b3600f0-8be1-11e9-a731-01dac530e6f7",
-    "groupId": "7b2e11b0-8be1-11e9-a0c5-67978c0077ae"
-  },
-  {
-    "uri": "http://80.211.208.222",
-    "hash": "1669b4e6ac3db813105b12b1bc211f994c5917f0052b5db45300db673a6e7c54",
-    "hashIdNode": "7b37d5b0-8be1-11e9-8c88-01c7fc0ca382",
-    "groupId": "7b2e11b0-8be1-11e9-a0c5-67978c0077ae"
-  }
-]
+[ { uri: 'http://95.216.198.25',
+    hash:
+     'bb279a3a26947f64c9e148c7a81096a1e11b2a3d0651cb17b4e03d543399d9df',
+    hashIdNode: 'a956b2b0-c8e8-11e9-a2a3-011585d83dd6',
+    groupId: 'a880ec20-c8e8-11e9-a39f-5f8cf0776753' },
+  { uri: 'http://159.65.102.87',
+    hash:
+     'bb279a3a26947f64c9e148c7a81096a1e11b2a3d0651cb17b4e03d543399d9df',
+    hashIdNode: 'a934d2d0-c8e8-11e9-b37e-0169b12ee781',
+    groupId: 'a880ec20-c8e8-11e9-a39f-5f8cf0776753' },
+  { uri: 'http://167.99.163.169',
+    hash:
+     'bb279a3a26947f64c9e148c7a81096a1e11b2a3d0651cb17b4e03d543399d9df',
+    hashIdNode: 'a934abc0-c8e8-11e9-a964-01427f1f20ed',
+    groupId: 'a880ec20-c8e8-11e9-a39f-5f8cf0776753' } ]
+
   // Verify every anchor in every Calendar proof
   let proofs = await chp.getProofs(proofHandles)
   console.log("Verified Proof Objects: Expand objects below to inspect.")

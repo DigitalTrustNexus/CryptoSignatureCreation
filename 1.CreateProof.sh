@@ -1,1 +1,1 @@
-node 1.HashAndSubmit.js designFiles/test.txt
+node 1.HashAndSubmit.js designFiles/demoFile
